@@ -6,8 +6,11 @@
 
 ## Tech Stack
 
+**Application Framework**: Ruby on Rails
+**Database Management System**: PostgreSQL
+
 ## Team
 
-Barrett Cope
-Tim Foley
-Nick Oki
+- Barrett Cope, @bcope
+- Tim Foley, @timfoley
+- Nick Oki, @nickoki
