@@ -1,4 +1,6 @@
-# librario
+# Recourse
+
+*n. A source of help in a difficult situation.*
 
 ## Mission
 
