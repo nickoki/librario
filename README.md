@@ -1,3 +1,11 @@
 # librario
 
-Initial Commit
+## Mission
+
+## Tech Stack
+
+## Team
+
+Barrett Cope
+Tim Foley
+Nick Oki
