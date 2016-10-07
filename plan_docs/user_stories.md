@@ -23,6 +23,9 @@ Use content
 * Oh, yeah, did I mention I want a dashboard...
 * I want my dashboard to be filtered for me automatically as a new user who doesn't know what I want
   * I want this content to be filtered by relevance to the week of WDI that I'm in
+* I want to be able to comment on posts
+* I want to like posts
+* I want to bookmark posts
 
 ### Admins
 

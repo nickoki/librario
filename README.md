@@ -12,6 +12,6 @@
 
 ## Dev Team
 
-- Barrett Cope, @bcope
-- Tim Foley, @timfoley
-- Nick Oki, @nickoki
+- Barrett Cope, [@bcope](https://github.com/bcope)
+- Tim Foley, [@timfoley](https://github.com/timfoley)
+- Nick Oki, [@nickoki](https://github.com/nickoki)
