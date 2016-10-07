@@ -23,7 +23,6 @@ CREATE TABLE comments (
   updated_at DATETIME
 );
 
--- I really don't want to name this table likes
 CREATE TABLE likes (
   user_id INT,
   post_id INT,
