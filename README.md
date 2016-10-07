@@ -7,9 +7,10 @@
 ## Tech Stack
 
 **Application Framework**: Ruby on Rails
+
 **Database Management System**: PostgreSQL
 
-## Team
+## Dev Team
 
 - Barrett Cope, @bcope
 - Tim Foley, @timfoley
