@@ -27,10 +27,17 @@ class PostsController < ApplicationController
 
   # Controller#Action edit
   #
-
+  def edit
+    @post = Post.find(params[:id])
+  end
 
   # Controller#Action update
   #
+  def update
+    @post = Post.find(params[:id])
+    @post.update(post_params)
+    redirect_to post_path
+  end
 
   # Controller#Action delete
   #
