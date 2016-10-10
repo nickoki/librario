@@ -10,7 +10,13 @@
 
   <body>
     <div class="holy-grail">
-      <header></header>
+      <header>
+        <ul class="nav-right">
+          <li class="nav-logo"><h3><a href="/">Recourse</a></h3></li>
+          <li><a href="/">Home</a></li>
+        </ul>
+        <ul class="nav-left"></ul>
+      </header>
       <div class="holy-grail-body">
         <main class="holy-grail-content">
           <%= yield %>
@@ -20,7 +26,7 @@
         <aside class="holy-grail-ads">
         </aside>
       </div>
-      <footer></footer>
+      <footer>FOOTER CONTENT</footer>
     </div>
   </body>
 </html>

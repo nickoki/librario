@@ -2,9 +2,9 @@
  *
  * Colors:
  *
- * Blue  -
- * Green -
- * Red   -
+ * Red   - #FF6347 or tomato
+ * Blue  - #1453CC
+ * Green - #B6FF19
  *
  *
  *
@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
 h1, h2, h3 {
@@ -25,4 +25,51 @@ h1, h2, h3 {
 
 a {
   text-decoration: none !important;
+  color: #000;
+  transition: 0.4s;
+}
+
+/**
+ * HEADER
+ */
+
+header {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  height: 60px;
+}
+
+.nav-logo {
+  margin: 0;
+  font-weight: 300 !important;
+  letter-spacing: 0.1em;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 2em;
+}
+
+header li:first-child {
+  padding: 0 4em;
+}
+
+header a:hover {
+  color: tomato !important;
+}
+
+
+
+/**
+ * FOOTER
+ */
+
+footer {
+  background: tomato;
+  color: #fff;
 }
