@@ -5,17 +5,21 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', 'https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <div class="holy-grail">
       <header>
-        <ul class="nav-right">
-          <li class="nav-logo"><h3><a href="/">Recourse</a></h3></li>
-          <li><a href="/">Home</a></li>
-        </ul>
-        <ul class="nav-left"></ul>
+        <div class="nav-left">
+          <a href="/" class="nav-logo">Recourse</a>
+        </div>
+        <div class="nav-right">
+          <a href="/"><i class="zmdi zmdi-home"></i>Home</a>
+          <a><i class="zmdi zmdi-account"></i>User</a>
+          <a><i class="zmdi zmdi-sign-in"></i>Logout</a>
+        </div>
       </header>
       <div class="holy-grail-body">
         <main class="holy-grail-content">
@@ -26,7 +30,16 @@
         <aside class="holy-grail-ads">
         </aside>
       </div>
-      <footer>FOOTER CONTENT</footer>
+      <footer>
+        <div class="footer-left buttons">
+          <h4>We're open source!</h4>
+          <a class="btn github" href="https://github.com/nickoki/recourse" target="_blank">
+            <i class="zmdi zmdi-github"></i>GitHub
+          </a>
+        </div>
+        <div class="footer-right">
+        </div>
+      </footer>
     </div>
   </body>
 </html>
