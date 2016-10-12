@@ -2,11 +2,11 @@
  *
  * Colors:
  *
- * Blue  -
- * Green -
- * Red   -
+ * Red   - #FF6347 or tomato
+ * Blue  - #1453CC
+ * Green - #B6FF19
  *
- *
+ * blue: skyblue
  *
  *
  */
@@ -16,9 +16,115 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+  transition: 0.4s;
+}
+
+.zmdi {
+  margin-right: 0.4em;
+}
+
+
+
+/**
+ * HEADER
+ */
+
+header {
+  display: flex !important;
+  justify-content: space-between;
+  width: 100vw;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  height: 60px;
+}
+
+.nav-logo {
+  margin: 0;
+  padding: 0 4em;
+  font-family: 'Merriweather', serif;
+  font-size: 16pt;
+  font-weight: 300 !important;
+  letter-spacing: 0.1em;
+}
+
+header > div {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  list-style: none;
+}
+
+header a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2em;
+  height: inherit;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: tomato !important;
+}
+
+.nav-right:last-child {
+  padding-right: 4em;
+}
+
+
+
+/**
+ * FOOTER
+ */
+
+footer {
+  display: flex !important;
+  justify-content: space-between;
+  width: 100vw;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  background: tomato;
+  color: #fff;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  margin: 1em 2em;
+}
+
+footer .btn {
+  display: inline-block;
+  margin-left: 2em;
+  padding: 1em 1.5em;
+  border: 1px solid #d8dee9;
+  border-radius: 290486px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+.btn:hover {
+  background: #e81c4f;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+  color: #fff !important;
+}
+
+.btn.github:hover {
+  background: #333;
 }

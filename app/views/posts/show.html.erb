@@ -1,0 +1,12 @@
+<h2>Post</h2>
+
+<ul>
+  <li>
+    <!-- <%= @post.title %> -->
+    <%= link_to "#{@post.title}", edit_post_path(@post) %>
+  </li>
+</ul>
+
+<%= form_for @post, method: :delete do |f| %>
+  <%= f.submit "Delete Post", class: "delete" %>
+<% end %>
