@@ -10,16 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161008175214) do
+ActiveRecord::Schema.define(version: 20161007202334) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.string   "link"
-    t.string   "description"
-    t.datetime "link_content_date"
+    t.text     "description"
+    t.date     "link_content_date"
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "update_at"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.index ["user_id"], name: "index_posts_on_user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "github_username"
+    t.boolean  "is_admin"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end
